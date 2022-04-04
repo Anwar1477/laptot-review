@@ -1,0 +1,30 @@
+.header{
+    height: 80px;
+    background-color: #1C2B35;
+    padding-left: 140px;
+    padding-right: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h3{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(236, 18, 164);
+}
+.header h3 span{
+    color: aqua;
+    border: 1px solid red;
+    padding: 5px;
+}
+.header a{
+    text-decoration: none;
+    color: #FFFF;
+    margin-left: 36px;
+    font-size: 17px;
+    text-transform: uppercase;
+    
+}
+.header a:hover{
+    color: orange;
+}
