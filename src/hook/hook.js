@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react"
 
 let useReview = () => {
-    let [review, setReview] = useState([]);
+    let [reviews, setReviews] = useState([]);
     useEffect(() => {
         fetch('data.json')
         .then(res => res.json())
-        .then(data => setReview(data));
+        .then(data => setReviews(data));
     },[]);
-    return [review, setReview];
+    return [reviews, setReviews];
 }
 
 export default useReview;

@@ -5,8 +5,10 @@ import Review from "../Review/Review";
 import "./Home.css";
 
 const Home = ({ image }) => {
-  let { review, setReview } = useReview();
- 
+    let [reviews, setReviews] = useReview();
+    // let review =reviews.slice(0,3);
+    
+  
   return (
     <div>
       <div className="home-page">
@@ -28,12 +30,10 @@ const Home = ({ image }) => {
       </div>
       <div>
         <Review></Review>
-
-        {/* <Review></Review> */}
         <div className="button-area">
           <Link to="/review">
-            {" "}
-            <button className="review-btn"> See all Reviews </button>{" "}
+            
+            <button className="review-btn"> See all Reviews </button>
           </Link>
         </div>
       </div>
