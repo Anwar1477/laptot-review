@@ -8,9 +8,10 @@ const Review = () => {
     let { name, id, rating, comment, picture } = reviews;
     return (
         <div>
+            <h1 style={{textAlign:'center'}}>Review Length: {reviews.length}</h1>
             <div className='reviews-container-area'>
                 {
-                    reviews.map(review => <div className='per-review'>
+                    reviews.map(review => <div key={review.id} className='per-review'>
                         <div className='review-container'>
                             <div>
                                 <img src={review.picture} alt="" />

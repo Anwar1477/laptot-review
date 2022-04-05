@@ -5,10 +5,12 @@ import Review from "../Review/Review";
 import "./Home.css";
 
 const Home = ({ image }) => {
-    let [reviews, setReviews] = useReview();
-    // let review =reviews.slice(0,3);
-    
-  
+  let [reviews, setReviews] = useReview();
+  let { name, id, rating, comment, picture } = reviews;
+  const rest = reviews.slice(0, 3);
+  let length = rest.length;
+  console.log(rest);
+
   return (
     <div>
       <div className="home-page">
@@ -28,15 +30,30 @@ const Home = ({ image }) => {
           <button className="demo-btn">Choice Your Laptop</button>
         </div>
       </div>
-      <div>
-        <Review></Review>
-        <div className="button-area">
+      <h1 style={{textAlign:'center'}}>Review Length: {length}</h1>
+      <div className='reviews-container-area'>
+
+        {rest.map((review) => (
+          <div className="per-review">
+            {
+              <div className='review-container'>
+                <img src={review.picture} alt="" />
+                <div>
+                  <h2>{review.name}</h2>
+                  <p> Comments:- {review.comment} </p>
+                  <p className="ratting"> Ratting: {review.rating} </p>
+                </div>
+              </div>
+            }
+          </div>
+        ))}
+        
+      </div>
+      <div className="button-area">
           <Link to="/review">
-            
             <button className="review-btn"> See all Reviews </button>
           </Link>
         </div>
-      </div>
     </div>
   );
 };
