@@ -1,0 +1,19 @@
+.reviews-container-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+
+}
+.review-container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.per-review{
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+

@@ -25,12 +25,29 @@
     font-weight: 900;
 }
 .demo-btn{
-    padding: 15px;
+    padding: 10px;
     border: 0;
-    background-color: goldenrod;
+    background-color: blue;
     color: white;
     border-radius: 10px;
+    font-size: 20px;
 }
 .demo-btn:hover{
     background-color: red;
+}
+.button-area{
+    text-align: center;
+}
+.review-btn{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 0;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.review-btn:hover{
+    background-color: red;
+
 }

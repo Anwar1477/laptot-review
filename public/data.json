@@ -1,64 +1,73 @@
 [
   {
+    "postId": 3,
     "id": "624a91ccc40d67fda2ebf2f3",
-    "picture": "http://placehold.it/32x32",
-    "rating": 1,
+    "picture": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "rating": "1/5",
     "name": "Stokes Wise",
     "comment": "This laptop performance is Awesome and battery backup is best in other laptop and display condition is good. Over all we love this laptop"
   },
   {
+    "postId": 3,
     "id": "624a91cc05967cf0ccf9cb5a",
-    "picture": "http://placehold.it/32x32",
-    "rating": 5,
+    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80",
+    "rating": "5/5",
     "name": "Wilkinson Powers",
     "comment": "This laptop performance is Awesome and battery backup is best in other laptop and display condition is good. Over all we love this laptop"
   },
   {
+    "postId": 3,
     "id": "624a91ccc877eec369f6474b",
-    "picture": "http://placehold.it/32x32",
-    "rating": 2,
+    "picture": "https://buffer.com/library/content/images/2022/03/amina.png",
+    "rating": "2/5",
     "name": "Webb Larsen",
     "comment": "This laptop performance is Awesome and battery backup is best in other laptop and display condition is good. Over all we love this laptop"
   },
   {
+    "postId": 4,
     "id": "624a91cc9802e25266246bab",
-    "picture": "http://placehold.it/32x32",
-    "rating": 5,
+    "picture": "https://img.freepik.com/free-photo/pleasant-looking-serious-man-stands-profile-has-confident-expression-wears-casual-white-t-shirt_273609-16959.jpg?size=626&ext=jpg&ga=GA1.2.2018362746.1636761600",
+    "rating": "5/5",
     "name": "Ophelia Fleming",
     "comment": "This laptop performance is Awesome and battery backup is best in other laptop and display condition is good. Over all we love this laptop"
   },
   {
+    "postId": 5,
     "id": "624a91cc7ac93b97b7f9ef7a",
-    "picture": "http://placehold.it/32x32",
-    "rating": 5,
+    "picture": "https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_0.jpg",
+    "rating": "5/5",
     "name": "Marcie Burks",
     "comment": "This laptop performance is Awesome and battery backup is best in other laptop and display condition is good. Over all we love this laptop"
   },
   {
+    "postId": 6,
     "id": "624a91cc190e53bcf4c863f2",
-    "picture": "http://placehold.it/32x32",
-    "rating": 2,
+    "picture": "http://lavinephotography.com.au/wp-content/uploads/2017/01/PROFILE-Photography-112.jpg",
+    "rating": "2/5",
     "name": "Rojas Ashley",
     "comment": "This laptop performance is Awesome and battery backup is best in other laptop and display condition is good. Over all we love this laptop"
   },
   {
+    "postId": 4,
     "id": "624a91ccf35be700ab0ce753",
-    "picture": "http://placehold.it/32x32",
-    "rating": 4,
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk3DgP-r2jcJjdzms_C_WYKnBPK0SdMUE8xA&usqp=CAU",
+    "rating": "4/5",
     "name": "Reva Lee",
     "comment": "This laptop performance is Awesome and battery backup is best in other laptop and display condition is good. Over all we love this laptop"
   },
   {
+    "postId": 4,
     "id": "624a91ccce9d5a5f243dded9",
-    "picture": "http://placehold.it/32x32",
-    "rating": 1,
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD-l889V8_Nv64SYZECELEBUzvWgmgxdlAow&usqp=CAU",
+    "rating": "1/5",
     "name": "Mullen Lowe",
     "comment": "This laptop performance is Awesome and battery backup is best in other laptop and display condition is good. Over all we love this laptop"
   },
   {
+    "postId": 4,
     "id": "624a91cca850cb83f880d5ef",
-    "picture": "http://placehold.it/32x32",
-    "rating": 4,
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmLi_BSePjHLv0mWV4jUzOwNwO8Ce_G79Yal19X-9pRK5_H4kQpSxCe6hjBfP2_Ku6bKM&usqp=CAU",
+    "rating": "4/5",
     "name": "Todd Cobb",
     "comment": "This laptop performance is Awesome and battery backup is best in other laptop and display condition is good. Over all we love this laptop"
   }

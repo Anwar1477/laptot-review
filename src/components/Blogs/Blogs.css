@@ -1,0 +1,9 @@
+
+.ans-div {
+    border: 2px solid rgb(209, 201, 201);
+    /* background-color: aquamarine; */
+    /* background-color: rgb(209, 201, 201); */
+    border-radius: 20px;
+    padding: 20px;
+    margin: 5%;
+}
