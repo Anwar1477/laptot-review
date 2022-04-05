@@ -30,7 +30,7 @@ const Home = ({ image }) => {
           <button className="demo-btn">Choice Your Laptop</button>
         </div>
       </div>
-      <h1 style={{textAlign:'center'}}>Review Length: {length}</h1>
+      <h1 style={{textAlign:'center', color:'tomato'}}>Review Length: {length}</h1>
       <div className='reviews-container-area'>
 
         {rest.map((review) => (

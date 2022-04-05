@@ -8,7 +8,7 @@ const Review = () => {
     let { name, id, rating, comment, picture } = reviews;
     return (
         <div>
-            <h1 style={{textAlign:'center'}}>Review Length: {reviews.length}</h1>
+            <h1 style={{textAlign:'center',color:'tomato'}}>Review Length: {reviews.length}</h1>
             <div className='reviews-container-area'>
                 {
                     reviews.map(review => <div key={review.id} className='per-review'>
@@ -18,8 +18,8 @@ const Review = () => {
                             </div>
                             <div>
                                 <h2>{review.name}</h2>
-                                <p> Comments:- {review.comment} </p>
-                                <p className='ratting'> Ratting: {review.rating} </p> 
+                                <p> <span style={{fontSize:'20px',color:'black', fontWeight:'bold'}}>Comments:-</span> {review.comment} </p>
+                                <p className='ratting'><span style={{fontSize:'20px',color:'black', fontWeight:'bold'}}>Rating:-</span> {review.rating} </p> 
                             </div>
                         </div>
                     </div>)
