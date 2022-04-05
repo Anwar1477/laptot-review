@@ -5,10 +5,11 @@ import Review from "../Review/Review";
 import "./Home.css";
 
 const Home = ({ image }) => {
-    let {review, setReview} = useReview();
+  let { review, setReview } = useReview();
+ 
   return (
-      <div>
-          <div className="home-page">
+    <div>
+      <div className="home-page">
         <div className="image">
           <img src={image} alt="" />
         </div>
@@ -26,14 +27,17 @@ const Home = ({ image }) => {
         </div>
       </div>
       <div>
-      <Review></Review>
-      <div className="button-area">
-      <Link to='/review'> <button className="review-btn"> See all Reviews  </button> </Link>
-      </div>
-      </div>
+        <Review></Review>
 
+        {/* <Review></Review> */}
+        <div className="button-area">
+          <Link to="/review">
+            {" "}
+            <button className="review-btn"> See all Reviews </button>{" "}
+          </Link>
+        </div>
       </div>
-     
+    </div>
   );
 };
 
